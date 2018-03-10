@@ -6,11 +6,8 @@ Capture cap;
 
 Serial port;
 
-//pixelateEffect vars
 int pixelateKernalSize = 1;
-//colorEffect vars
 int colorValue = 0;
-//glitchEffect vars
 int glitchShiftAmount = 0;
 int glitchSliceHeight = 1;
 
@@ -19,11 +16,10 @@ void setup(){
     canvas = createImage(width, height, RGB);
     cap = new Capture(this, width, height);
     cap.start();
-    //port = new Serial(this, Serial.list()[0], 9600);
+    port = new Serial(this, Serial.list()[0], 9600);
 }
 
 void draw(){
-    /*
     if(port.available() > 0){
         String data = port.readStringUntil('|');
         if(data != null){
@@ -38,7 +34,6 @@ void draw(){
             }
         }
     }
-    */
     if(cap.available()){
         cap.read();
         canvas.copy(cap, 0, 0, cap.width, cap.height, 0, 0, cap.width, cap.height);
