@@ -12,8 +12,8 @@ void setup() {
 
 void loop() {
     pixelateKernalSize = (int) map(analogRead(0), 0, 1023, 1, 50);
-    colorValue = (int) map(analogRead(1), 0, 1023, -250, 250);
-    glitchShiftAmount = (int) map(analogRead(2), 0, 1023, 0, 40);
+    colorValue = (int) map(analogRead(1), 0, 1023, 0, -400);
+    glitchShiftAmount = (int) map(analogRead(2), 0, 1023, 0, 80);
     glitchSliceHeight = (int) map(analogRead(3), 0, 1023, 1, 200);
     currentTime = millis();
     if(currentTime - previousTime >= 20){

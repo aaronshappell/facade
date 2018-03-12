@@ -12,9 +12,9 @@ int glitchShiftAmount = 0;
 int glitchSliceHeight = 1;
 
 void setup(){
-    size(640, 480);
+    size(1280, 960);
+    cap = new Capture(this, 640, 480);
     canvas = createImage(width, height, RGB);
-    cap = new Capture(this, width, height);
     cap.start();
     port = new Serial(this, Serial.list()[0], 9600);
 }
@@ -36,7 +36,7 @@ void draw(){
     }
     if(cap.available()){
         cap.read();
-        canvas.copy(cap, 0, 0, cap.width, cap.height, 0, 0, cap.width, cap.height);
+        canvas.copy(cap, 0, 0, cap.width, cap.height, 0, 0, canvas.width, canvas.height);
         colorEffect(colorValue);
         pixelateEffect(pixelateKernalSize);
     }
@@ -46,36 +46,36 @@ void draw(){
 
 void pixelateEffect(int kernalSize){
     canvas.loadPixels();
-    for(int y = 0; y < height; y += kernalSize){
-        for(int x = 0; x < width; x += kernalSize){
+    for(int y = 0; y < canvas.height; y += kernalSize){
+        for(int x = 0; x < canvas.width; x += kernalSize){
             int avgR = 0;
             int avgG = 0;
             int avgB = 0;
             for(int sy = y; sy < y + kernalSize; sy++){
-                if(sy >= height){
+                if(sy >= canvas.height){
                     break;
                 }
                 for(int sx = x; sx < x + kernalSize; sx++){
-                    if(sx >= width){
+                    if(sx >= canvas.width){
                         break;
                     }
-                    avgR += (canvas.pixels[sy * width + sx] >> 16) & 0xFF;
-                    avgG += (canvas.pixels[sy * width + sx] >> 8) & 0xFF;
-                    avgB += canvas.pixels[sy * width + sx] & 0xFF;
+                    avgR += (canvas.pixels[sy * canvas.width + sx] >> 16) & 0xFF;
+                    avgG += (canvas.pixels[sy * canvas.width + sx] >> 8) & 0xFF;
+                    avgB += canvas.pixels[sy * canvas.width + sx] & 0xFF;
                 }
             }
             avgR /= kernalSize * kernalSize;
             avgG /= kernalSize * kernalSize;
             avgB /= kernalSize * kernalSize;
             for(int sy = y; sy < y + kernalSize; sy++){
-                if(sy >= height){
+                if(sy >= canvas.height){
                     break;
                 }
                 for(int sx = x; sx < x + kernalSize; sx++){
-                    if(sx >= width){
+                    if(sx >= canvas.width){
                         break;
                     }
-                    canvas.pixels[sy * width + sx] = color(avgR, avgG, avgB);
+                    canvas.pixels[sy * canvas.width + sx] = color(avgR, avgG, avgB);
                 }
             }
         }
@@ -85,28 +85,31 @@ void pixelateEffect(int kernalSize){
 
 void colorEffect(int value){
     canvas.loadPixels();
-    for(int y = 0; y < height; y++){
-        for(int x = 0; x < width; x++){
-            canvas.pixels[y * width + x] = canvas.pixels[y * width + x] + value;
+    for(int y = 0; y < canvas.height; y++){
+        for(int x = 0; x < canvas.width; x++){
+            canvas.pixels[y * canvas.width + x] = canvas.pixels[y * canvas.width + x] + value;
         }
     }
     canvas.updatePixels();
 }
 
 void glitchEffect(int shiftAmount, int sliceHeight){
+    if(shiftAmount != 0){
+        shiftAmount += (Math.random() * shiftAmount) -shiftAmount;
+    }
     canvas.loadPixels();
     int rowCounter = 0;
     if(shiftAmount < 0){
         rowCounter = 1;
         shiftAmount = Math.abs(shiftAmount);
     }
-    for(int y = 0; y < height; y += sliceHeight){
+    for(int y = 0; y < canvas.height; y += sliceHeight){
         for(int sy = y; sy < y + sliceHeight; sy++){
-            if(sy >= height){
+            if(sy >= canvas.height){
                 break;
             }
             for(int i = 0; i < shiftAmount; i++){
-                shift(canvas.pixels, rowCounter % 2 == 0, sy * width, sy * width + width - 1);
+                shift(canvas.pixels, rowCounter % 2 == 0, sy * canvas.width, sy * canvas.width + canvas.width - 1);
             }
         }
         rowCounter++;

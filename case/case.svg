@@ -12,7 +12,7 @@
    height="5.4719999999999995in"
    viewBox=" 0 0 1593.7199999999998 492.47999999999996"
    id="svg26"
-   sodipodi:docname="caseplans.svg"
+   sodipodi:docname="case.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata32">
@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,9 +43,9 @@
      showgrid="false"
      inkscape:measure-start="0,525.312"
      inkscape:measure-end="-120.352,423.738"
-     inkscape:zoom="3.764542"
-     inkscape:cx="1458.2171"
-     inkscape:cy="183.70961"
+     inkscape:zoom="1.882271"
+     inkscape:cx="367.74097"
+     inkscape:cy="176.48352"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -122,7 +122,7 @@
          height="86.5028"
          x="149.18599"
          y="334.75513" /></flowRegion><flowPara
-       id="flowPara3734"></flowPara></flowRoot>  <flowRoot
+       id="flowPara3734" /></flowRoot>  <flowRoot
      xml:space="preserve"
      id="flowRoot4573"
      style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
@@ -132,109 +132,93 @@
          height="110.44604"
          x="89.408707"
          y="241.30789" /></flowRegion><flowPara
-       id="flowPara4579"></flowPara></flowRoot>  <g
-     id="g4671"
-     transform="translate(0.25987176)">
-    <g
-       transform="translate(-16.200632)"
-       id="g4649">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:21.00643158px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52516079"
-         x="94.558784"
-         y="400.88809"
-         id="text3726"><tspan
-           sodipodi:role="line"
-           id="tspan3724"
-           x="94.558784"
-           y="400.88809"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.52516079">pixelate</tspan></text>
-      <circle
-         id="path4571"
-         cx="144.367"
-         cy="346.85999"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.41248873;stroke-opacity:1"
-         r="17.51029" />
-    </g>
-    <g
-       transform="translate(-1.4087391)"
-       id="g4644">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
-         x="233.4306"
-         y="400.45337"
-         id="text3738"><tspan
-           sodipodi:role="line"
-           x="233.4306"
-           y="400.45337"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.9375"
-           id="tspan3740">color</tspan></text>
-      <circle
-         r="17.51029"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.41248873;stroke-opacity:1"
-         cy="346.85999"
-         cx="265.20233"
-         id="circle4584" />
-    </g>
-    <g
-       transform="translate(13.383093)"
-       id="g4639">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:20.85276794px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52131921"
-         x="385.3353"
-         y="400.88403"
-         id="text3746"><tspan
-           sodipodi:role="line"
-           id="tspan3744"
-           x="385.3353"
-           y="400.88403"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.52131921">glitch</tspan><tspan
-           sodipodi:role="line"
-           x="385.3353"
-           y="427.47333"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.52131921"
-           id="tspan3754">intensity</tspan></text>
-      <circle
-         r="17.51029"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.41248873;stroke-opacity:1"
-         cy="346.85999"
-         cx="386.03769"
-         id="circle4584-0" />
-    </g>
-    <g
-       transform="translate(28.175012)"
-       id="g4633">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:19.90149879px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49753743"
-         x="506.92426"
-         y="400.88403"
-         id="text3750"><tspan
-           sodipodi:role="line"
-           id="tspan3748"
-           x="506.92426"
-           y="400.88403"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.49753743">glitch</tspan><tspan
-           sodipodi:role="line"
-           x="506.92426"
-           y="427.13403"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.49753743"
-           id="tspan3752">height</tspan></text>
-      <circle
-         r="17.51029"
-         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.41248873;stroke-opacity:1"
-         cy="346.85999"
-         cx="506.87299"
-         id="circle4584-9" />
-    </g>
-  </g>
+       id="flowPara4579" /></flowRoot>  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.00643158px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52516079"
+     x="73.303062"
+     y="400.88809"
+     id="text3726"><tspan
+       sodipodi:role="line"
+       id="tspan3724"
+       x="73.303062"
+       y="400.88809"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.52516079">pixelate</tspan></text>
+  <ellipse
+     id="path4571"
+     cx="123.11128"
+     cy="346.85999"
+     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.28874213;stroke-opacity:1"
+     rx="12.257204"
+     ry="12.257203" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+     x="226.96677"
+     y="400.45337"
+     id="text3738"><tspan
+       sodipodi:role="line"
+       x="226.96677"
+       y="400.45337"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.9375"
+       id="tspan3740">color</tspan></text>
+  <ellipse
+     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.28874213;stroke-opacity:1"
+     cy="346.85999"
+     cx="258.73849"
+     id="circle4584"
+     rx="12.257204"
+     ry="12.257203" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:20.85276794px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52131921"
+     x="393.6633"
+     y="400.88403"
+     id="text3746"><tspan
+       sodipodi:role="line"
+       id="tspan3744"
+       x="393.6633"
+       y="400.88403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.52131921">glitch</tspan><tspan
+       sodipodi:role="line"
+       x="393.6633"
+       y="427.47333"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.52131921"
+       id="tspan3754">intensity</tspan></text>
+  <ellipse
+     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.28874213;stroke-opacity:1"
+     cy="346.85999"
+     cx="394.36569"
+     id="circle4584-0"
+     rx="12.257203"
+     ry="12.257204" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:19.90149879px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.49753743"
+     x="530.04419"
+     y="400.88403"
+     id="text3750"><tspan
+       sodipodi:role="line"
+       id="tspan3748"
+       x="530.04419"
+       y="400.88403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.49753743">glitch</tspan><tspan
+       sodipodi:role="line"
+       x="530.04419"
+       y="427.13403"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21px;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;text-anchor:middle;stroke-width:0.49753743"
+       id="tspan3752">height</tspan></text>
+  <ellipse
+     style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.28874213;stroke-opacity:1"
+     cy="346.85999"
+     cx="529.99292"
+     id="circle4584-9"
+     rx="12.257204"
+     ry="12.257203" />
   <ellipse
      style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.6290375;stroke-opacity:1"
      id="path4651"
-     cx="1376.0139"
-     cy="333.99463"
+     cx="1379.5004"
+     cy="327.02167"
      rx="34.618549"
      ry="34.618553" />
 </svg>
